@@ -1,7 +1,8 @@
-import { Grid } from "@nextui-org/react";
+import { Grid, Image } from "@nextui-org/react";
 import pokeApi from "../api/pokeApi";
 import { Layout } from "../components/layouts";
 import { PokemonCard } from "../components/pokemon";
+
 
 const HomePage = ({ pokemons }) => {
 
